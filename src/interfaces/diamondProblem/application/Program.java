@@ -1,13 +1,12 @@
-package diamondProblem.application;
+package interfaces.diamondProblem.application;
 
-import diamondProblem.devices.ComboDevice;
-import diamondProblem.devices.ConcretePrinter;
-import diamondProblem.devices.ConcreteScanner;
+import interfaces.diamondProblem.devices.ComboDevice;
+import interfaces.diamondProblem.devices.ConcretePrinter;
+import interfaces.diamondProblem.devices.ConcreteScanner;
 
 public class Program {
 
 	public static void main(String[] args) {
-
 		ConcretePrinter p = new ConcretePrinter("1080");
 		p.processDoc("My Letter");
 		p.print("My Letter");

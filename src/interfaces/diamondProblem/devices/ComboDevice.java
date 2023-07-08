@@ -1,4 +1,4 @@
-package diamondProblem.devices;
+package interfaces.diamondProblem.devices;
 
 public class ComboDevice extends Device implements Scanner, Printer {
 

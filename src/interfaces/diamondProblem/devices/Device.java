@@ -1,4 +1,4 @@
-package diamondProblem.devices;
+package interfaces.diamondProblem.devices;
 
 public abstract class Device {
 

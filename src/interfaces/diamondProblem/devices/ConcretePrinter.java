@@ -1,4 +1,4 @@
-package diamondProblem.devices;
+package interfaces.diamondProblem.devices;
 
 public class ConcretePrinter extends Device implements Printer {
 

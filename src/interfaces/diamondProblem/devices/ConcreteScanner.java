@@ -1,4 +1,4 @@
-package diamondProblem.devices;
+package interfaces.diamondProblem.devices;
 
 public class ConcreteScanner extends Device implements Scanner {
 
